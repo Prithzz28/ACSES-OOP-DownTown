@@ -65,25 +65,25 @@ class EditReg: public StuReg{
 
 int main()
 {
-    //first execute this.
+    /*//first execute this.
     StuReg obj1=StuReg();
     obj1.display();
 
     obj1=StuReg(27,"OOP DownTown",0);
-    obj1.display();
+    obj1.display();*/
 
-    /*//later execute this.
+    //later execute this.
     EditReg obj; //Object of child class will have all attributes and methods of parent class.
     obj.setData();
     obj.display();
-
-    //obj.rno=15;  //private variable not accessible outside class.
-    //obj.fees=100000; //protected member not accessible ouside parent & child class.
-
+    
+    /*obj.rno=15;  //private variable not accessible outside class.
+    obj.fees=100000; //protected member not accessible ouside parent & child class.*/
+    
     obj.EditName();
     obj.display();
 
     obj.EditFees();
-    obj.display();*/
+    obj.display();
 }
 

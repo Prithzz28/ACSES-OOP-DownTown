@@ -13,7 +13,7 @@ public:
 class CreditCard : public Payment
 {
 public:
-    void pay(int amount) override
+    void pay(int amount)
     {
         cout << "Paying " << amount << " using Credit Card" << endl;
     }
@@ -22,7 +22,7 @@ public:
 class UPI : public Payment
 {
 public:
-    void pay(int amount) override
+    void pay(int amount) 
     {
         cout << "Paying " << amount << " using UPI" << endl;
     }
@@ -31,7 +31,7 @@ public:
 class Cash : public Payment
 {
 public:
-    void pay(int amount) override
+    void pay(int amount) 
     {
         cout << "Paying " << amount << " using Cash" << endl;
     }
